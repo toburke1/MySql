@@ -1,5 +1,5 @@
 - name: This sets up an mysql server
-  hosts: dbservers
+  hosts: db1.rhpds.opentlc.com
   tasks:
      - name: Install mysql
        yum: name=mysql state=present    
